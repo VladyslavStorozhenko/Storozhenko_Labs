@@ -46,8 +46,8 @@ namespace SeleniumHomework
             "https://www.epam.com/about/newsroom")]
         [TestCase("//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/div/button",
             "//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/div/nav/ul/li[6]",
-            "//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/div/nav/ul/li[6]/ul/li[3]/a",
-            "https://www.epam.com/careers/epam-without-borders")]
+            "//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/div/nav/ul/li[6]/ul/li[1]/a",
+            "https://www.epam.com/careers")]
 
         public void MenuDropdownTest(string xpath1, string xpath2, string xpath3, string site)
         {
